@@ -1,0 +1,28 @@
+---
+compiled_package_info:
+  package_name: package_starter
+  address_alias_instantiation:
+    package_starter: "0000000000000000000000000000000000000000000000000000000000000000"
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+    suitears: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 39D69EBA1C057347721F1516B029B004390AD6147462075228C990DE6812AEDC
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    additional_named_addresses: {}
+dependencies:
+  - MoveStdlib
+  - Sui
+  - SuiTears
