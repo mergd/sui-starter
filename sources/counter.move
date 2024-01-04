@@ -43,6 +43,11 @@ module package_starter::counter{
             value: self.value,
             currentIncrementer: self.currentIncrementer,
             lastIncremented: self.lastIncremented
-        })
+        });
+    }
+
+    public fun get_value(self: &Counter): u32 {
+        self.value
     }
 }
+
